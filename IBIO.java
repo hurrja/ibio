@@ -1,3 +1,12 @@
+/* A set of input-output helper functions created by IBO. Here they
+   are packaged into a class for convenient use. In IB exams, these
+   functions are assumed to be callable without a classname. To
+   achieve this, add this file into your project, and add the line
+
+   import static IBIO;
+
+   into your program files which use these functions */
+
 class IBIO
 {
   static void output (String info) { System.out.println (info); }
@@ -26,11 +35,6 @@ class IBIO
     return inputLine;
   }
   
-  static String inputString (String prompt) { return input (prompt); }
-  static String input () { return input (""); }
-  static int inputInt () { return inputInt (""); }
-  static double inputDouble () { return inputDouble (""); }
-
   static char inputChar (String prompt)
   {
     char result = (char) 0;
@@ -96,4 +100,9 @@ class IBIO
     catch (Exception e) { result = false; }
     return result;
   }
+
+  static String inputString (String prompt) { return input (prompt); }
+  static String input () { return input (""); }
+  static int inputInt () { return inputInt (""); }
+  static double inputDouble () { return inputDouble (""); }
 }
