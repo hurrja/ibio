@@ -1,6 +1,10 @@
 # IBIO input-output helpers
 ## Simplified I/O in Java programs
-   This repository contains a set of input-output helper functions written by the IBO.
+   This repository contains a set of static input-output helper
+   methods written by the IBO. The copyright holder of the original
+   code is IBO. Here the code has been packaged conveniently, and
+   instructions have been provided for easy use.
+
 ## Usage
    1. Clone this repository into your project directory by running
       ```
