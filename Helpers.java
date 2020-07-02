@@ -24,6 +24,7 @@ public class Helpers
   {
     String inputLine = "";
     System.out.print (prompt);
+    System.out.flush ();
     try
     {
       inputLine = (new java.io.BufferedReader (
