@@ -1,9 +1,10 @@
 /* A set of input-output helper functions created by IBO. Here they
    are packaged into a class for convenient use. In IB exams, these
    functions are assumed to be callable without a classname. To
-   achieve this, add this file into your project, and add the line
+   achieve this, clone this repository into your project, and add the
+   line
 
-   import static IBIO.Helpers.*;
+   import static ibio.Helpers.*;
 
    into your program files which use these functions */
 
