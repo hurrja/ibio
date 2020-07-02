@@ -23,7 +23,7 @@ public class Helpers
   public static String input (String prompt)
   {
     String inputLine = "";
-    System.out.print(prompt);
+    System.out.print (prompt);
     try
     {
       inputLine = (new java.io.BufferedReader (
@@ -36,6 +36,11 @@ public class Helpers
       inputLine = "";
     }
     return inputLine;
+  }
+
+  private static String inputAndTrim (String prompt)
+  {
+    return input (prompt).trim ();
   }
   
   public static char inputChar (String prompt)
@@ -51,10 +56,10 @@ public class Helpers
   
   public static byte inputByte (String prompt)
   {
-    byte result=0;
+    byte result = 0;
     try
     {
-      result = Byte.valueOf (input (prompt).trim ()).byteValue ();
+      result = Byte.valueOf (inputAndTrim (prompt)).byteValue ();
     }
     catch (Exception e) { result = 0; }
     return result;
@@ -62,10 +67,10 @@ public class Helpers
   
   public static int inputInt (String prompt)
   {
-    int result=0;
+    int result = 0;
     try
     {
-      result = Integer.valueOf (input (prompt).trim ()).intValue ();
+      result = Integer.valueOf (inputAndTrim (prompt)).intValue ();
     }
     catch (Exception e) { result = 0; }
     return result;
@@ -73,7 +78,7 @@ public class Helpers
   
   public static long inputLong (String prompt)
   {
-    long result=0;
+    long result = 0;
     try
     {
       result = Long.valueOf (input(prompt).trim()).longValue ();
@@ -84,12 +89,12 @@ public class Helpers
   
   public static double inputDouble (String prompt)
   {
-    double result=0;
+    double result = 0;
     try
     {
-      result = Double.valueOf (input (prompt).trim ()).doubleValue ();
+      result = Double.valueOf (inputAndTrim (prompt)).doubleValue ();
     }
-    catch (Exception e){ result = 0; }
+    catch (Exception e) { result = 0; }
     return result;
   }
   
@@ -98,7 +103,7 @@ public class Helpers
     boolean result=false;
     try
     {
-      result=Boolean.valueOf (input (prompt).trim ()).booleanValue ();
+      result = Boolean.valueOf (inputAndTrim (prompt)).booleanValue ();
     }
     catch (Exception e) { result = false; }
     return result;
