@@ -7,7 +7,7 @@
 
    into your program files which use these functions */
 
-package IBIO;
+package ibio;
 
 public class Helpers
 {
