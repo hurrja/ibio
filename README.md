@@ -10,6 +10,10 @@
       ```
       git clone https://github.com/jarmohurri/ibio.git
       ```
+      or, if you are using `git` yourself in your project, add this library as a submodule
+      ```
+      git submodule add https://github.com/jarmohurri/ibio.git
+      ```
    2. If you want to use helper functions in a `.java`-file, add the following line into the file:
       ```
       import static ibio.Helpers.*;
