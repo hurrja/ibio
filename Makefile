@@ -1,2 +1,2 @@
-Helpers.jar: manifest.txt Helpers.java 
+ibio.jar: manifest.txt Helpers.java 
 	jar cfm $@ $^
