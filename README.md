@@ -6,7 +6,7 @@
    instructions have been provided for easy use.
 
 ## Installation
-### If you are using Intellij IDEA.
+### If you are using Intellij IDEA
     1. Create new project from version control.
     2. As project source, give `https://github.com/jarmohurri/ibio.git`
     3. Select install `git` if necessary.
@@ -18,12 +18,12 @@
     4. Select `+ -> JARs or directories...".
     5. This opens a file selector. Locate `ibio.jar` and select it.
     6. Select `OK`.
-### If you are using `git` as your own version control system.
-    Add this library as a submodule of your project
-    ```
-    git submodule add https://github.com/jarmohurri/ibio.git
-    ```
-## Usage in Java.
+### If you are using `git` as your own version control system
+####    Add this library as a submodule of your project
+        ```
+        git submodule add https://github.com/jarmohurri/ibio.git
+        ```
+## Usage in Java
    1. Add the following line into your Java file:
       ```
       import static ibio.Helpers.*;
