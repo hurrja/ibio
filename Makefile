@@ -1,2 +1,5 @@
-ibio.jar: manifest.txt Helpers.class
-	jar cfm $@ $^
+ibio.jar: Helpers.class
+	jar cf $@ -C .. ibio/$^
+
+Helpers.class: Helpers.java
+	javac $^
