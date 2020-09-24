@@ -1,3 +1,5 @@
+#+options: num:2
+
 * IBIO input-output helpers
 ** Simplified I/O in Java programs
    This repository contains a set of static input-output helper
