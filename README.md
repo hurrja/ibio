@@ -21,15 +21,15 @@
 ### If you are using git as your own version control system
 ####  Add this library as a submodule of your project
        
-       git submodule add https://github.com/jarmohurri/ibio.git
+      git submodule add https://github.com/jarmohurri/ibio.git
        
 ## Usage in Java
    1. Add the following line into your Java file:
-      
+      ```   
       import static ibio.Helpers.*;
-      
+      ```
    2. Now the helpers are available to you without a class prefix. For example, you can directly call
-      
+      ```   
       output (156);
       
 ## Disclaimer
