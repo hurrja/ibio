@@ -5,20 +5,30 @@
    code is IBO. Here the code has been packaged conveniently, and
    instructions have been provided for easy use.
 
-## Usage
-   1. Clone this repository into your project directory by running
-      ```
-      git clone https://github.com/jarmohurri/ibio.git
-      ```
-      or, if you are using `git` yourself in your project, add this library as a submodule
-      ```
-      git submodule add https://github.com/jarmohurri/ibio.git
-      ```
-   2. If you want to use helper functions in a `.java`-file, add the following line into the file:
+## Installation
+### If you are using Intellij IDEA.
+    1. Create new project from version control.
+    2. As project source, give `https://github.com/jarmohurri/ibio.git`
+    3. Select install `git` if necessary.
+    4. After git has cloned the project, you can close the project.
+    After this, to use this package in a project:
+    1. Select `File -> Project structure...".
+    2. Select `Modules`.
+    3. Select `Dependencies`.
+    4. Select `+ -> JARs or directories...".
+    5. This opens a file selector. Locate `ibio.jar` and select it.
+    6. Select `OK`.
+### If you are using `git` as your own version control system.
+    Add this library as a submodule of your project
+    ```
+    git submodule add https://github.com/jarmohurri/ibio.git
+    ```
+## Usage in Java.
+   1. Add the following line into your Java file:
       ```
       import static ibio.Helpers.*;
       ```
-   3. Now the helpers are available to you without a class prefix. For example, you can directly call
+   2. Now the helpers are available to you without a class prefix. For example, you can directly call
       ```
       output (156);
       ```
