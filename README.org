@@ -7,10 +7,15 @@
 
 ** Installation
 *** If you are using Intellij IDEA
-    1. Create new project from version control.
+    In Intellij IDEA, this package needs to be installed only once,
+    and then you can use it in all your projects.
+
+    Installation steps are as follows:
+    1. Create a new project from version control.
     2. As project source, give https://github.com/jarmohurri/ibio.git.
     3. Install git if asked to do that.
     4. After git has cloned the project, you can close the project.
+
     After this, to use this package in a project:
     1. Select =File -> Project structure...=.
     2. Select =Modules=.
