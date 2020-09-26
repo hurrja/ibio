@@ -14,7 +14,9 @@
     1. Create a new project from version control.
     2. As project source, give https://github.com/jarmohurri/ibio.git.
     3. Install git if asked to do that.
-    4. After git has cloned the project, you can close the project.
+    4. After git has cloned the project, build the package jar library:
+       1. Select =Build=.
+       2. UNDER CONSTRUCTION 2020-09-26.
 
     After this, to use this package in a project:
     1. Select =File -> Project structure...=.
