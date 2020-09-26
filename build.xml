@@ -1,0 +1,10 @@
+<project name="ibio" default="jar" basedir=".">
+  <target name="compile">
+    <mkdir dir="ibio"/>
+    <javac srcdir="." destdir="ibio"/>
+  </target>
+  <target name="jar" depends="compile">
+    <jar destfile="ibio.jar" basedir="ibio">
+    </jar>
+  </target>
+</project>
