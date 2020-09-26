@@ -19,7 +19,8 @@
        1. Right click on file =build.xml=.
        2. Select =Add as Ant build file=.
        3. Select =Build -> ibio -> <default target>=.
-    5. You can now close the =ibio= project.
+    5. After the build has finished, you can close the =ibio=
+       project. The package is ready to be used.
 
     After this, to use this package in a project:
     1. Select =File -> Project structure...=.
