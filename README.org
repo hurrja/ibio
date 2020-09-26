@@ -14,8 +14,7 @@
     1. Create a new project from version control.
     2. As project source, give https://github.com/jarmohurri/ibio.git.
     3. Install git if asked to do that.
-    4. After git has cloned the project, build the package binary jar
-       library:
+    4. After git has cloned the project, build the package jar file:
        1. Right click on file =build.xml=.
        2. Select =Add as Ant build file=.
        3. Select =Build -> ibio -> <default target>=.
