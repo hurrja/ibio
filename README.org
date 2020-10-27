@@ -12,7 +12,10 @@
 
     Installation steps are as follows:
     1. Create a new project from version control.
-    2. As project source, give https://github.com/jarmohurri/ibio.git.
+    2. As project source, give 
+       #+begin_example
+       https://github.com/jarmohurri/ibio.git
+       #+end_example
     3. Install git if asked to do that.
     4. After git has cloned the project, build the package jar file:
        1. Right click on file =build.xml=.
