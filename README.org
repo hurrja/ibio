@@ -17,11 +17,16 @@
        https://github.com/jarmohurri/ibio.git
        #+end_example
     3. Install git if asked to do that.
-    4. After git has cloned the project, build the package jar file:
+    4. After git has cloned the project, verify that IDEA will use an
+       appropriate version of Java:
+       1. Select =File -> Project structure... -> Project=.
+       2. Check that a version of Java is selected in =Project SDK=.
+       3. Press =OK=.
+    5. Build the package jar file:
        1. Right click on file =build.xml=.
        2. Select =Add as Ant build file=.
        3. Select =Build -> ibio -> <default target>=.
-    5. After the build has finished, you can close the =ibio=
+    6. After the build has finished, you can close the =ibio=
        project. The package is ready to be used.
 
     After this, to use this package in a project:
