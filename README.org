@@ -14,7 +14,7 @@
     1. Create a new project from version control.
     2. As project source, give 
        #+begin_example
-       https://github.com/jarmohurri/ibio.git
+       https://github.com/hurrja/ibio.git
        #+end_example
     3. Install git if asked to do that.
     4. After git has cloned the project, verify that IDEA will use an
@@ -39,7 +39,7 @@
 *** If you are using git as your own version control system
     Just add this library as a submodule of your project:
     #+begin_src sh
-      git submodule add https://github.com/jarmohurri/ibio.git
+      git submodule add https://github.com/hurrja/ibio.git
     #+end_src
        
 ** Usage in Java
